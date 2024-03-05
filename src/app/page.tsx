@@ -90,9 +90,19 @@ export default function Home() {
                 With over 5 years of experience in the software industry, I thrive in collaborative environments, where I contribute to teams by providing clean and efficient solutions. I am eager to leverage my skills to tackle new challenges and drive impactful results in your organization.
 
               </p>
+              <div className="row">
+                <div className="col-1"> <img src="/images/React-icon.svg" title="React Js" width={50}></img></div>
+                <div className="col-1"> <img src="/images/csharpicon.png" title="C#" width={50}></img></div>
+                <div className="col-1"> <img src="/images/javascript-icon.png" title="Javascript" width={50}></img></div>
+                <div className="col-1"> <img src="/images/azure-icon.png" title="Azure" width={50}></img></div>
+                <div className="col-1"> <img src="/images/html-icon.webp" title="HTML" width={50}></img></div>
+                <div className="col-1"> <img src="/images/css-icon.png" title="CSS" width={50}></img></div>
+              </div>
               <a className="btn-rounded btn btn-outline-primary mt-4" href='/files/RahulRautResume.pdf' download>Download CV </a>
             </div>
+
           </div>
+
           {/* end of about wrapper */}
         </div>
         {/* end of container */}

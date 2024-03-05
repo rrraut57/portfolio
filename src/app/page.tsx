@@ -8,7 +8,7 @@ export default function Home() {
           <a className="logo" href="#">
 
           </a>
-          <ul className="nav">
+          <ul className="nav" >
             <li className="item">
               <a className="link" href="#home">
                 Home
@@ -50,7 +50,7 @@ export default function Home() {
             id="nav-toggle"
             className="hamburger hamburger--elastic"
           >
-            <div className="hamburger-box">
+            <div className="hamburger-box" title="Ongoing endeavor">
               <div className="hamburger-inner" />
             </div>
           </a>
@@ -66,7 +66,7 @@ export default function Home() {
             <span className="down">I am Rahul</span>
           </h1>
           <p className="header-subtitle">FULL STACK WEB DEVELOPER</p>
-          <button className="btn btn-primary">Visit My Works</button>
+          <button className="btn btn-primary" disabled title="Ongoing endeavor">Visit My Works</button>
         </div>
       </header>
       {/* end of page header */}
@@ -80,16 +80,14 @@ export default function Home() {
               <img
                 src="/images/coding-2.webp"
                 className="about-img"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
               />
             </div>
             <div className="about-caption">
               <p className="section-subtitle">Who Am I ?</p>
               <h2 className="section-title mb-3">About Me</h2>
               <p>
-                Multi-faceted software developer knowledgeable in .NET, .NET MVC, JavaScript, React Js, Azure, HTML, and CSS.
-                True team player offering 5+ years of experience in the software industry. Seeking an opportunity to provide
-                outstanding, clean code in a collaborative environment.
+                Experienced software developer proficient in .NET, .NET MVC, JavaScript, React.js, Azure, HTML, and CSS, with a proven track record of delivering high-quality code.
+                With over 5 years of experience in the software industry, I thrive in collaborative environments, where I contribute to teams by providing clean and efficient solutions. I am eager to leverage my skills to tackle new challenges and drive impactful results in your organization.
 
               </p>
               <a className="btn-rounded btn btn-outline-primary mt-4" href='/files/RahulRautResume.pdf' download>Download CV </a>

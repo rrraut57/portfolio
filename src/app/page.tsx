@@ -86,17 +86,21 @@ export default function Home() {
               <p className="section-subtitle">Who Am I ?</p>
               <h2 className="section-title mb-3">About Me</h2>
               <p>
-                Experienced software developer proficient in .NET, .NET MVC, JavaScript, React.js, Azure, HTML, and CSS, with a proven track record of delivering high-quality code.
+                Experienced software developer proficient in .NET, .NET MVC, JavaScript, React.js, Azure, MSSQL, HTML, and CSS, with a proven track record of delivering high-quality code.
                 With over 5 years of experience in the software industry, I thrive in collaborative environments, where I contribute to teams by providing clean and efficient solutions. I am eager to leverage my skills to tackle new challenges and drive impactful results in your organization.
 
               </p>
+
               <div className="row">
-                <div className="col-1"> <img src="/images/React-icon.svg" title="React Js" width={50}></img></div>
-                <div className="col-1"> <img src="/images/csharpicon.png" title="C#" width={50}></img></div>
-                <div className="col-1"> <img src="/images/javascript-icon.png" title="Javascript" width={50}></img></div>
-                <div className="col-1"> <img src="/images/azure-icon.png" title="Azure" width={50}></img></div>
-                <div className="col-1"> <img src="/images/html-icon.webp" title="HTML" width={50}></img></div>
-                <div className="col-1"> <img src="/images/css-icon.png" title="CSS" width={50}></img></div>
+
+                {/* <div className="col-md-1">    <img className="link" src="/images/React-icon.svg" title="React Js" width={50}></img></div> */}
+                <div className="col-2 col-sm-1 col-md-1"> <img className="icon" src="/images/React-icon.svg" title="React Js" width={50}></img></div>
+                <div className="col-2 col-sm-1  col-md-1"> <img src="/images/csharpicon.png" title="C#" width={50}></img></div>
+                <div className="col-2  col-sm-1  col-md-1"> <img src="/images/javascript-icon.png" title="Javascript" width={50}></img></div>
+                <div className="col-2  col-sm-1  col-md-1"> <img src="/images/azure-icon.png" title="Azure" width={50}></img></div>
+                <div className="col-2  col-sm-1  col-md-1"> <img src="/images/html-icon.webp" title="HTML" width={50}></img></div>
+                <div className="col-2  col-sm-1  col-md-1"> <img src="/images/css-icon.png" title="CSS" width={50}></img></div>
+                <div className="col-2  col-sm-1  col-md-1"> <img src="/images/sql-icon.png" title="SQL" width={20}></img></div>
               </div>
               <a className="btn-rounded btn btn-outline-primary mt-4" href='/files/RahulRautResume.pdf' download>Download CV </a>
             </div>

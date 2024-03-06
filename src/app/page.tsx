@@ -1,4 +1,8 @@
 import Image from "next/image";
+import ContactMe from "./shared/contactme";
+import Portfolio from "./shared/portfolio";
+import HireMe from "./shared/hireme";
+import MyWork from "./shared/mywork";
 
 export default function Home() {
   return (
@@ -46,7 +50,7 @@ export default function Home() {
             </li>
           </ul>
           <a
-            href="javascript:void(0)"
+            // href="javascript:void(0)"
             id="nav-toggle"
             className="hamburger hamburger--elastic"
           >
@@ -112,6 +116,9 @@ export default function Home() {
         {/* end of container */}
       </section>{" "}
       {/* end of about section */}
+      <Portfolio></Portfolio>
+      <HireMe></HireMe>
+      <MyWork></MyWork>
     </>
   );
 }

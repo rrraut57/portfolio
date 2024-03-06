@@ -12309,6 +12309,7 @@ p {
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
+  min-height: 350px;
 }
 
 .portfolio-card .portfolio-card-overlay {
